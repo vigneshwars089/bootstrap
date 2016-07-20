@@ -1,0 +1,94 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features{
+  text-align: center;
+}
+#featuresHeading h2{text-align: center;}
+.panel{position: relative;}
+.panel .label{position: absolute;right: 0px;top: 40px;}
+.modal{text-align: left;}
+.cinemas ul{list-style: none;}
+.cinemas li{display: inline;}
+.modal select{width: 100px;}
+footer{background:#333 ;color:#eee ;font-size:10px ;padding:20px ;}
+.modal #day{margin-left: 40px;}
+
+#myModal .modal-header h4{background-image: url('../../images/now_modale.png');height: 70px;}
+#myModal1 .modal-header h4{background-image: url('../../images/ind_modback.jpg');height: 70px;}
+#myModal2 .modal-header h4{background-image: url('../../images/dory_modback.jpg');height: 70px;}
+#myModal3 .modal-header h4{background-image: url('../../images/leg_modback.jpg');height: 70px;}
+footer .container{margin-left: 100px;}
+footer li{list-style: none;}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #search{width: 400px;}
+   .navbar-brand{padding-top: 0px;}
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+.carousel-caption{font-size: 18px;}
+.carousel-caption h4{font-size: 24px;}
+   #myCarousel{margin-top: 60px;}
+#myCarousel .item{height: 400px;}
+#slide1{background:url('../../images/ice_medium.jpg') top center no-repeat;}
+#slide2{background:url('../../images/su_medium.jpg') top center no-repeat; }
+#slide3{background:url('../../images/mech_medium.jpg') top center no-repeat;}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+  .n{width: 100%;}
+  #myCarousel .item{height: 400px;}
+  #slide1{background:url('../../images/ice_small.jpg') top center no-repeat;}
+  #slide2{background:url('../../images/su_small.jpg') top center no-repeat; }
+  #slide3{background:url('../../images/mech_small.jpg') top center no-repeat;}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #myCarousel .item{height: 310px;}
+  #slide1{background:url('../../images/ice_medium.jpg') top center no-repeat;}
+  #slide2{background:url('../../images/su_medium.jpg') top center no-repeat; }
+  #slide3{background:url('../../images/mech_medium.jpg') top center no-repeat;}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #myCarousel .item{height: 500px;}
+#slide1{background:url('../../images/ice_large.jpg') top center no-repeat;}
+#slide2{background:url('../../images/su_large.jpg') top center no-repeat; }
+#slide3{background:url('../../images/mech_large.jpg') top center no-repeat;}
+
+}

@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+
+<div class="container" id="main">
+	<div class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+
+			<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+			<button type=button class="navbar-toggle collapsed" data-target=".n" data-toggle="collapse" type="button">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<a class="navbar-brand" href="index.html"><img src="images/logo.jpg" alt="Your Logo" width="150px"></a>
+
+			<div class="navbar-collapse collapse  n">
+				<ul class="nav navbar-nav">
+					<li class="">
+						<a href="index1.html">Home</a>
+					</li>
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Categories <strong class="caret"></strong></a>
+
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">Action</a>
+							</li>
+
+							<li>
+								<a href="#">Animation</a>
+							</li>
+
+							<li>
+								<a href="#">Comedy</a>
+							</li>
+							<li>
+								<a href="#">Fantasy</a>
+							</li>
+
+							<li>
+								<a href="#">Horror</a>
+							</li>
+
+
+							<li class="divider"></li>
+
+							<li class="dropdown-header">others</li>
+
+							<li>
+								<a href="#">Coming Soon</a>
+							</li>
+
+							<li>
+								<a href="#">Latest Trailers</a>
+							</li>
+						</ul><!-- end dropdown-menu -->
+					</li>
+				</ul>
+
+				<form class="navbar-form navbar-left">
+					<div class="form-group">
+					<input type="text" class="form-control" placeholder="Search your movie..." id="searchInput">
+				</div>
+					<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+				</form><!-- end navbar-form -->
+
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-briefcase"></span> My Wallet <strong class="caret"></strong></a>
+
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-heart"></span>&nbsp Watchlist</a>
+							</li>
+
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-play-circle"></span>&nbsp Watch Online</a>
+							</li>
+
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-erase"></span>&nbsp Register</a>
+							</li>
+
+							<li class="divider"></li>
+
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp Sign In</a>
+							</li>
+						</ul>
+					</li>
+				</ul><!-- end nav pull-right -->
+			</div><!-- end nav-collapse -->
+
+		</div><!-- end container fluid -->
+
+	</div>
+	<div class="carousel slide" id="myCarousel">
+
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+			<li data-slide-to="1" data-target="#myCarousel"></li>
+			<li data-slide-to="2" data-target="#myCarousel"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item active" id="slide1">
+				<div class="carousel-caption">
+					<h4>Ice age:collision course</h4>
+					<p>Manny, Diego, and Sid join up with Buck to fend off a meteor strike that would destroy the world.</p>
+				</div><!-- end carousel-caption-->
+			</div><!-- end item -->
+
+			<div class="item" id="slide2">
+				<div class="carousel-caption">
+					<h4>Suicide Squad</h4>
+					<p>A secret government agency led by Amanda Waller recruits imprisoned supervillains to execute dangerous black ops missions in exchange for clemency and saving the world from an unknown but powerful threat.</p>
+				</div><!-- end carousel-caption-->
+			</div><!-- end item -->
+
+			<div class="item" id="slide3">
+				<div class="carousel-caption">
+					<h4>Mechanic:Resurrection</h4>
+					<p>Arthur Bishop who narrowly escaped from Steve's murder attempt on him retires his status as a contract killer. But when his foe kidnaps the love of his life, he is forced to travel the globe to complete three impossible assassinations.</p>
+				</div><!-- end carousel-caption-->
+			</div><!-- end item -->
+		</div><!-- carousel-inner -->
+
+		<!-- Controls -->
+		<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+		<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+	</div><!-- end myCarousel -->
+	<div class="row" id="featuresHeading">
+		<div class="col-12">
+			<h2>Now Running</h2>
+			<p class="lead"></p>
+		</div><!-- end col-12 -->
+	</div><!-- end featuresHeading -->
+
+
+	<div class="row" id="features">
+		<div class="col-sm-3 feature">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">Now You See Me 2</h3>
+				</div><!-- end panel-heading -->
+				<img src="images/now_panel.jpg" alt="HTML5" class="img-thumbnail">
+				<div class="label label-danger"><span class="glyphicon glyphicon-heart">76%</span>
+</div>
+	<h6 class="text-muted">Action</h6>
+
+				<p>The Four Horsemen resurface and are forcibly recruited by a tech genius to pull off their most impossible heist yet joining hands with Walter mably.</p>
+
+				<a href="#myModal"  role="button" class="btn btn-danger btn-block" data-toggle="modal">BOOK</a>
+
+				<div class="modal fade" id="myModal">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+
+								<h4 class="modal-title"></h4>
+							</div><!-- end modal-header -->
+							<div class="modal-body">
+								<div class="btn-group" id="day" role="group" aria-label="...">
+
+	  <button type="button" class="btn btn-default">15 today</button>
+	  <button type="button" class="btn btn-default">16 sat</button>
+	  <button type="button" class="btn btn-default">17 sun</button>
+		<button type="button" class="btn btn-default">18 Mon</button>
+		<button type="button" class="btn btn-default">19 Tue</button>
+
+	</div>
+	<div class="cinemas">
+	<h4>AGS Cinemas:villivakam</h4>
+	<ul class="shows">
+		<button type="button" class="btn btn-default">11.20 A.M</button>
+		<button type="button" class="btn btn-default">12.30 P.M</button>
+		<button type="button" class="btn btn-default">4.30 P.M</button>
+		<button type="button" class="btn btn-default">7.20 P.M</button>
+		<button type="button" class="btn btn-default">10.50 P.M</button>
+	</ul>
+</div>
+<div class="cinemas">
+<h4>PVR cinemas:Skywalk</h4>
+<ul class="shows">
+	<button type="button" class="btn btn-default">10.20 A.M</button>
+	<button type="button" class="btn btn-default">11.55 A.M</button>
+	<button type="button" class="btn btn-default">2.00 P.M</button>
+	<button type="button" class="btn btn-default">4.30 P.M</button>
+	<button type="button" class="btn btn-default">9.00 P.M</button>
+</ul>
+</div>
+<div class="cinemas">
+<h4>PALAZZO cinemas:Forum mall</h4>
+<ul class="shows">
+	<button type="button" class="btn btn-default">11.10 A.M</button>
+	<button type="button" class="btn btn-default">1.20 P.M</button>
+	<button type="button" class="btn btn-default">3.30 P.M</button>
+	<button type="button" class="btn btn-default">7.20 P.M</button>
+	<button type="button" class="btn btn-default">11.20 P.M</button>
+</ul>
+</div>
+<hr>
+<h5>Number of tickets</h5>
+<select class="form-control" placeholder="">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+</select>
+
+
+
+							</div><!-- end modal-body -->
+
+							<div class="modal-footer">
+							<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>	 <button class="btn btn-primary" type="button">Book</button>
+							</div><!-- end modal-footer -->
+						</div><!-- end modal-content -->
+					</div><!-- end modal-dialog -->
+				</div><!-- end myModal -->
+
+
+			</div><!-- end panel -->
+		</div><!-- end feature -->
+
+		<div class="col-sm-3 feature">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">Independence Day</h3>
+				</div><!-- end panel-heading -->
+				<img src="images/ind_panel.jpg" alt="CSS3" class="img-thumbnail">
+				<div class="label label-danger"><span class="glyphicon glyphicon-heart">69%</span>
+</div>
+	<h6 class="text-muted">Sci-fi</h6>
+				<p>Two decades after the first Independence Day invasion, Earth is faced with a new extra-Solar threat.Will mankind's space defenses be enough?
+</p>
+
+   <a href="#myModal1"  role="button" class="btn btn-danger btn-block" data-toggle="modal">BOOK</a>
+
+	 <div class="modal fade" id="myModal1">
+		 <div class="modal-dialog">
+			 <div class="modal-content">
+				 <div class="modal-header">
+
+					 <h4 class="modal-title"></h4>
+				 </div><!-- end modal-header -->
+				 <div class="modal-body">
+					 <div class="btn-group" id="day" role="group" aria-label="...">
+
+<button type="button" class="btn btn-default">15 today</button>
+<button type="button" class="btn btn-default">16 sat</button>
+<button type="button" class="btn btn-default">17 sun</button>
+<button type="button" class="btn btn-default">18 Mon</button>
+<button type="button" class="btn btn-default">19 Tue</button>
+
+</div>
+<div class="cinemas">
+<h4>AGS Cinemas:villivakam</h4>
+<ul class="shows">
+<button type="button" class="btn btn-default">11.20 A.M</button>
+<button type="button" class="btn btn-default">12.30 P.M</button>
+<button type="button" class="btn btn-default">4.30 P.M</button>
+<button type="button" class="btn btn-default">7.20 P.M</button>
+<button type="button" class="btn btn-default">10.50 P.M</button>
+</ul>
+</div>
+<div class="cinemas">
+<h4>PVR cinemas:Skywalk</h4>
+<ul class="shows">
+<button type="button" class="btn btn-default">10.20 A.M</button>
+<button type="button" class="btn btn-default">11.55 A.M</button>
+<button type="button" class="btn btn-default">2.00 P.M</button>
+<button type="button" class="btn btn-default">4.30 P.M</button>
+<button type="button" class="btn btn-default">9.00 P.M</button>
+</ul>
+</div>
+<div class="cinemas">
+<h4>PALAZZO cinemas:Forum mall</h4>
+<ul class="shows">
+<button type="button" class="btn btn-default">11.10 A.M</button>
+<button type="button" class="btn btn-default">1.20 P.M</button>
+<button type="button" class="btn btn-default">3.30 P.M</button>
+<button type="button" class="btn btn-default">7.20 P.M</button>
+<button type="button" class="btn btn-default">11.20 P.M</button>
+</ul>
+</div>
+<hr>
+<h5>Number of tickets</h5>
+<select class="form-control" placeholder="">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+</select>
+
+
+
+				 </div><!-- end modal-body -->
+
+				 <div class="modal-footer">
+				 <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>	 <button class="btn btn-primary" type="button">Book</button>
+				 </div><!-- end modal-footer -->
+			 </div><!-- end modal-content -->
+		 </div><!-- end modal-dialog -->
+	 </div><!-- end myModal -->
+
+
+			</div><!-- end panel -->
+		</div><!-- end feature -->
+
+		<div class="col-sm-3 feature">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">Finding Dory</h3>
+				</div><!-- end panel-heading -->
+				<img src="images/dory_panel.jpg" alt="Bootstrap 3" class="img-thumbnail">
+				<div class="label label-danger"><span class="glyphicon glyphicon-heart">80%</span>
+</div>
+	<h6 class="text-muted">Fantasy / Animation</h6>
+				<p>The friendly forgetful blue tang fish search for her long-lost parents, and everyone learns a few things about the real meaning of family.
+</p>
+
+<a href="#myModal2"  role="button" class="btn btn-danger btn-block" data-toggle="modal">BOOK</a>
+
+<div class="modal fade" id="myModal2">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+
+				<h4 class="modal-title"></h4>
+			</div><!-- end modal-header -->
+			<div class="modal-body">
+				<div class="btn-group"id="day" role="group" aria-label="...">
+
+<button type="button" class="btn btn-default">15 today</button>
+<button type="button" class="btn btn-default">16 sat</button>
+<button type="button" class="btn btn-default">17 sun</button>
+<button type="button" class="btn btn-default">18 Mon</button>
+<button type="button" class="btn btn-default">19 Tue</button>
+
+</div>
+<div class="cinemas">
+<h4>AGS Cinemas:villivakam</h4>
+<ul class="shows">
+<button type="button" class="btn btn-default">11.20 A.M</button>
+<button type="button" class="btn btn-default">12.30 P.M</button>
+<button type="button" class="btn btn-default">4.30 P.M</button>
+<button type="button" class="btn btn-default">7.20 P.M</button>
+<button type="button" class="btn btn-default">10.50 P.M</button>
+</ul>
+</div>
+<div class="cinemas">
+<h4>PVR cinemas:Skywalk</h4>
+<ul class="shows">
+<button type="button" class="btn btn-default">10.20 A.M</button>
+<button type="button" class="btn btn-default">11.55 A.M</button>
+<button type="button" class="btn btn-default">2.00 P.M</button>
+<button type="button" class="btn btn-default">4.30 P.M</button>
+<button type="button" class="btn btn-default">9.00 P.M</button>
+</ul>
+</div>
+<div class="cinemas">
+<h4>PALAZZO cinemas:Forum mall</h4>
+<ul class="shows">
+<button type="button" class="btn btn-default">11.10 A.M</button>
+<button type="button" class="btn btn-default">1.20 P.M</button>
+<button type="button" class="btn btn-default">3.30 P.M</button>
+<button type="button" class="btn btn-default">7.20 P.M</button>
+<button type="button" class="btn btn-default">11.20 P.M</button>
+</ul>
+</div>
+<hr>
+<h5>Number of tickets</h5>
+<select class="form-control" placeholder="">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+</select>
+
+
+
+			</div><!-- end modal-body -->
+
+			<div class="modal-footer">
+			<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>	 <button class="btn btn-primary" type="button">Book</button>
+			</div><!-- end modal-footer -->
+		</div><!-- end modal-content -->
+	</div><!-- end modal-dialog -->
+</div><!-- end myModal -->
+
+
+			</div><!-- end panel -->
+		</div><!-- end feature -->
+		<div class="col-sm-3 feature">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">Legend Of Tarzan</h3>
+				</div><!-- end panel-heading -->
+				<img src="images/leg_panel.jpeg" alt="Bootstrap 3" class="img-thumbnail">
+				<div class="label label-danger"><span class="glyphicon glyphicon-heart">67%</span>
+</div>
+				<h6 class="text-muted">Action</h6>
+
+				<p>Tarzan, having acclimated to life in London, is called back to his former home in the jungle to investigate the activities at a mining encampment.
+</p>
+
+<a href="#myModal3"  role="button" class="btn btn-danger btn-block" data-toggle="modal">BOOK</a>
+<div class="modal fade" id="myModal3">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+
+				<h4 class="modal-title"></h4>
+			</div><!-- end modal-header -->
+			<div class="modal-body">
+				<div class="btn-group" id="day" role="group" aria-label="...">
+
+<button type="button" class="btn btn-default">15 today</button>
+<button type="button" class="btn btn-default">16 sat</button>
+<button type="button" class="btn btn-default">17 sun</button>
+<button type="button" class="btn btn-default">18 Mon</button>
+<button type="button" class="btn btn-default">19 Tue</button>
+
+</div>
+<div class="cinemas">
+<h4>AGS Cinemas:villivakam</h4>
+<ul class="shows">
+<button type="button" class="btn btn-default">11.20 A.M</button>
+<button type="button" class="btn btn-default">12.30 P.M</button>
+<button type="button" class="btn btn-default">4.30 P.M</button>
+<button type="button" class="btn btn-default">7.20 P.M</button>
+<button type="button" class="btn btn-default">10.50 P.M</button>
+</ul>
+</div>
+<div class="cinemas">
+<h4>PVR cinemas:Skywalk</h4>
+<ul class="shows">
+<button type="button" class="btn btn-default">10.20 A.M</button>
+<button type="button" class="btn btn-default">11.55 A.M</button>
+<button type="button" class="btn btn-default">2.00 P.M</button>
+<button type="button" class="btn btn-default">4.30 P.M</button>
+<button type="button" class="btn btn-default">9.00 P.M</button>
+</ul>
+</div>
+<div class="cinemas">
+<h4>PALAZZO cinemas:Forum mall</h4>
+<ul class="shows">
+<button type="button" class="btn btn-default">11.10 A.M</button>
+<button type="button" class="btn btn-default">1.20 P.M</button>
+<button type="button" class="btn btn-default">3.30 P.M</button>
+<button type="button" class="btn btn-default">7.20 P.M</button>
+<button type="button" class="btn btn-default">11.20 P.M</button>
+</ul>
+</div>
+<hr>
+<h5>Number of tickets</h5>
+<select class="form-control" placeholder="">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+</select>
+
+
+
+			</div><!-- end modal-body -->
+
+			<div class="modal-footer">
+			<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>	 <button class="btn btn-primary" type="button">Book</button>
+			</div><!-- end modal-footer -->
+		</div><!-- end modal-content -->
+	</div><!-- end modal-dialog -->
+</div><!-- end myModal -->
+
+
+			</div><!-- end panel -->
+		</div><!-- end feature -->
+	</div><!-- end features -->
+
+</div>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+			<h6>Copyright &copy; 2016</h6>
+			</div><!-- end col-sm-2 -->
+
+
+			<div class="col-sm-2">
+				<h6>Navigation</h6>
+				<ul class="unstyled">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Links</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div><!-- end col-sm-2 -->
+
+			<div class="col-sm-2">
+				<h6>Follow Us</h6>
+				<ul class="unstyled">
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Google Plus</a></li>
+				</ul>
+			</div><!-- end col-sm-2 -->
+
+
+		</div><!-- end row -->
+	</div><!-- end container -->
+</footer>
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>
